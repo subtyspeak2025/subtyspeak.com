@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+  text-align: center;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 500px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Фото під навігацією */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+/* Flex-контейнер для двох колонок */
+.text-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 40px 50px;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.main-text,
+.side-text {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Для списку мов */
+.side-text ul {
+  margin: 10px 0 20px;
+  padding-left: 20px;
+}
